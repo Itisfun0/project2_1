@@ -24,6 +24,7 @@ Boat::Boat(){
     bool is_adult_go;
 }
 void Boat:: begin(int a, int b, BoatGrader *bg){
+    
     num_children_O = b;
     num_adults_O = a;
     num_children_M = 0;
